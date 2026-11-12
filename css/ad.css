@@ -1,0 +1,71 @@
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100vw;
+	height: 100vh;
+}
+
+.frame {
+	width: 970px;
+	height: 250px;
+	border: solid 1px gray;
+}
+@font-face {
+	font-family: SonoBold;
+	src:url(../fonts/webfonts/Sono-Bold.woff2) format('woff');
+}
+@font-face {
+	font-family: SonoReg;
+	src:url(../fonts/webfonts/Sono-Regular.woff2) format('woff');
+}
+@font-face {
+	font-family: SonoLight;
+	src:url(../fonts/webfonts/Sono-Light.woff2) format('woff');
+}
+@font-face {
+	font-family: SonoExLight;
+	src:url(../fonts/webfonts/Sono-ExtraLight.woff2) format('woff');
+}
+.title {
+	font-family: 'SonoLight';
+	font-size: 30px;
+	color: black;
+	letter-spacing: 0.3px;
+	position: absolute;
+	left: 5%;
+	bottom: 60%;
+}
+.text {
+	font-family: 'SonoExLight';
+	font-size: 24px;
+	color: black;
+	letter-spacing: 0.3px;
+	position: absolute;
+	left: 5%;
+	bottom: 54%;
+}
+.link {
+	font-family: 'SonoLight';
+	font-size: 16px;
+	color: black;
+	letter-spacing: 0.1px;
+	position: absolute;
+	left: 10%;
+	bottom: 40%;
+	border: solid 2px #fab33b;
+	width: 75px;
+	line-height: 24px;
+	padding: 5px 0 5px 0;
+	text-decoration: none;
+	text-align: center;
+}
+
+.album {
+	height: 40%;
+	position: absolute;
+	right: 90px;
+	top: 230px;
+}
+
+
